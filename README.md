@@ -1,2 +1,8 @@
-# arch_script
-This is for creating and formating a disk to make it ready for an Arch installation.  It will create a EFI and a BTRFS partitions.  Then create the subvolumes (@, @home, @log, @pkg, @snapshots) and mount them.  Thats it.  You can then use the archinstall script to finish the instalation.
+--------------------------------------------------------
+    Arch Linux Disk Partitioning and Formatting Script   
+--------------------------------------------------------
+This script will guide you through partitioning a selected disk,
+formatting it with Btrfs and creating subvolumes for Arch Linux installation.
+It will also create and format an EFI partition for UEFI booting.
+Ensure that you select the correct disk, as this operation is destructive!
+--------------------------------------------------------
